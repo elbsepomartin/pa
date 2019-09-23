@@ -10,5 +10,22 @@ Antud kursuse raames omandatakse baasteadmised prograammeerimisest PHP keele alu
     * [Github](https://github.com) repo loomine
     * PhpStorm Version Control Settings (Git, Github)
     * PhpStorm githubi repo kloneerimine arvutisse
-    
-    
+### 23.09.2019
+* Git kasutamine
+
+Lokaalse git repo initsialisserimine
+```
+git init
+```
+Lisa vastav fail järgmisele git poolt
+```
+git add failinimi
+```
+Koosta muudatud failide kirjeldus
+```
+git commit -m "Muudatuse kirjeldus"
+```
+Lükka muudatused koos kirjeldusega kaugreposse
+```
+git push -uf origin master
+```
