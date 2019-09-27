@@ -36,3 +36,7 @@ VCS -> Commit (CMD + K)
 * Vali failid, mille sisu on vaja commitida
 * Määra vastav kirjeldus
 * Commiti ära -> Commit and Push
+### 27.09.2019
+* PHP matemaatilised arvutused
+    * Ümardamised
+    * Suunamine
