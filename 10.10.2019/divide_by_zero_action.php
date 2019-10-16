@@ -1,18 +1,13 @@
 <?php
 
-$numberOne = (int)$_GET['$numberOne'];
-$numberTwo = (int)$_GET['$numberTwo'];
-var_dump($numberOne);
-var_dump($numberTwo);
-/*
-if(strlen($numberOne) > 0 or strlen($numberTwo) > 0) {
-    if($numberTwo == 0) {
-        echo 'Ei tohi jagada 0-ga';
-    }   else {
-        echo $numberOne / $numberTwo;
+$numberOne = $_GET['numberOne'];
+$numberTwo = $_GET['numberTwo'];
+if(strlen($numberOne) > 0 and strlen($numberTwo) > 0){
+    if($numberTwo != 0) {
+        echo $numberOne.' / '.$numberTwo.' = '.$numberOne / $numberTwo;
+    } else {
+        echo 'Nulliga jagamine keelatud';
     }
-}   else {
-    echo 'Sisesta väärtused';
-} */
-
-if
+} else {
+    echo 'Sisesta kõik väärtused';
+}
