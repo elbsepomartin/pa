@@ -12,7 +12,7 @@
 $eesnimi = "Sepo-Martin";
 $perenimi = "Elb";
 $yksus = "IKT osakond";
-$email = "anna.karutina@khk.ee";
+$email = "sepo-martin.elb@khk.ee";
 
 // muutujate kasutamine - kutsumine
 echo $eesnimi." ".$perenimi."<br>";
