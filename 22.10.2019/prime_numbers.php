@@ -1,19 +1,33 @@
 <?php
 
+// define function
 function isPrime($number){
     if($number < 2) {
-        echo 'This number is not valid';
-    }   else {
+        $result = 'This number is not valid';
+    } else {
         $divider = 2;
         while ($number % $divider != 0) {
             $divider++;
         }
         if($number == $divider) {
-            echo $number.' is a prime number<br>';
-        }   else {
-            echo $number.' is not a prime number<br>';
+            $result = true;
+        } else {
+            $result = false;
         }
     }
+    return $result;
+}
+function description($number) {
+    echo $number;
+    //  if(isPrime($number) == true){} is the same like next row
+    if(isPrime($number) === true){
+        echo ' is prime';
+    } else if(isPrime($number) === false){
+        echo ' is not prime';
+    } else {
+        echo ' - '.isPrime($number);
+    }
+    echo '<br>';
 }
 // use function
-isPrime(rand(0, 99));
+description(rand(0,99));

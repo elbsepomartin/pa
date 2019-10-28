@@ -1,7 +1,8 @@
 # Programeerimise alused
 Antud kursuse raames omandatakse baasteadmised prograammeerimisest PHP keele alusel.
 ## Ajakava
-* 19.09 Tarvara paigaldamine ja seadistamine
+### 19.09 
+* Tarkvara paigaldamine ja seadistamine
     * [PhpStorm](https://www.jetbrains.com/phpstorm/)
     * [Git](https://git-scm.com/downloads)
     ### Seadistamine
@@ -40,3 +41,24 @@ VCS -> Commit (CMD + K)
 * PHP matemaatilised arvutused
     * Ümardamised
     * Suunamine
+### 09.10.2019
+* Matemaatilised arvutused
+    * Liitmine, lahutamine, korrutamine, jagamine, jääk
+    * Arvu suurendamine mingi väärtusega
+### 10.10.2019
+* if, else kasutamine
+* loogilised operaatorid
+* Metsheina ülesanne 2
+### 16.10.2019
+* Asteriksid
+* Numbrid ülevalt alla
+* Pi
+### 21.10.2019
+* E-õppe päev
+    * Metsheina ülesanne 7
+        * Jagamise ülesanne
+        * Täringumäng
+        * Kolmnurk
+### 22.10.2019
+* Prime numbrid
+* Random värvidega tabel
